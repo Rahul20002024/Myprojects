@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head><title>Register</title></head>
+<body>
+  <form action="register" method="post">
+    <h2>Festival Registration</h2>
+    Name: <input type="text" name="name"><br>
+    Institute: <input type="text" name="institute"><br>
+    Age: <input type="number" name="age"><br>
+    Qualification: <input type="text" name="qualification"><br>
+    Category:
+    <select name="category">
+      <option value="Dance">Dance</option>
+      <option value="Music">Music</option>
+    </select><br>
+    Gender:
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female<br>
+    Events:
+    <input type="checkbox" name="events" value="Solo"> Solo
+    <input type="checkbox" name="events" value="Group"> Group<br>
+    Remarks:<br>
+    <textarea name="remarks"></textarea><br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
